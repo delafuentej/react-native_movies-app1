@@ -7,6 +7,20 @@ export interface NowPlayingResponse {
     total_results: number;
 }
 
+export interface MovieDBResponse {
+    page:          number;
+    results:       Result[];
+    total_pages:   number;
+    total_results: number;
+}
+export interface UpcomingResponse {
+    dates:         Dates;
+    page:          number;
+    results:       Result[];
+    total_pages:   number;
+    total_results: number;
+}
+
 export interface Dates {
     maximum: Date;
     minimum: Date;
