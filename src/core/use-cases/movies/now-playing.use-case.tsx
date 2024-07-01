@@ -1,6 +1,6 @@
 /* eslint-disable eol-last */
 /* eslint-disable prettier/prettier */
-// consuming the api, getting the information from movies through a funcion
+// getting the information from movies through a funcion
 // use-case agnostics => do not require third party dependencies in order to operate
 
 import { HttpAdapter } from '../../../config/adapters/http/http.adapter';
