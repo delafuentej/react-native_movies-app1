@@ -15,10 +15,12 @@ export const useMovies = () => {
 
     const initLoad = async()=>{
         const nowPlayingMovies = await UseCases.moviesNowPlayingUseCase(movieDBFetcher);
+        // console.log('nowPlayingMovies',nowPlayingMovies);
     };
 
   return{
-
+    isLoading,
+    nowPlaying,
 
   };
 };
